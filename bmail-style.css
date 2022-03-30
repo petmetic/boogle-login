@@ -1,0 +1,155 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-image {
+    width: 20%;
+    padding-bottom: 40px;
+    padding-top: 150px;
+}
+
+.phrase {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.phrase-opening {
+    font-family: Verdana, normal, serif;
+    font-size: 200%;
+    margin: -1px;
+    color: #9EB9A9;
+}
+
+.phrase-text {
+    font-family: Verdana, normal, serif;
+    font-size: 100%;
+    color: #A8C7B4;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #DAF2E4;
+    width: 400px;
+    height: 400px;
+    border-bottom: 3px solid darkgrey;
+    border-left: 2px solid darkgrey;
+    margin-bottom: 16px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border: 1px;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-bottom: 40px;
+}
+
+.email-next-help {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% - 20px);
+}
+
+.email {
+    margin: 4px;
+    padding-left: 10px;
+    width: 92%;
+    height: 35px;
+    font-size: 20px;
+    background-color: #FBF8C5;
+    border: 1px solid darkgrey;
+
+}
+
+.next {
+    margin: 2px;
+    width: 95%;
+    height: 40px;
+    font-size: 20px;
+    background-color: #BBD4F5;
+    border: 1px solid darkgrey;
+}
+
+.link {
+    font-size: 15px;
+    font-family: Verdana, normal, serif;
+    padding-right: 0;
+    margin: 10px;
+    text-align: right;
+}
+
+.link a {
+    color: #B2BB91;
+}
+
+.next:hover {
+    cursor: pointer;
+}
+
+.link-crack {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #24AA5A;
+    font-family: Verdana, normal, serif;
+    margin-top: 40px;
+}
+
+.logo-icon {
+    height: 40px;
+    border: 1px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.links {
+    font-size: 15px;
+    font-family: Verdana, normal, serif;
+    display: inline-block;
+    margin: 5px;
+    padding-right: 1%;
+}
+
+.links a {
+    color: #24AA5A;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: center;
+    color: #24AA5A;
+}
